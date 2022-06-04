@@ -1,0 +1,29 @@
+/* layout.css */
+/* media query for display: over 750 px */
+
+@media screen and (min-width: 750px) {
+	nav {
+		height: 1.3em;
+	}
+	.menu {
+		font-size: 104%;
+	}
+	
+	#mainimg {
+		padding-left: 6em;
+	}
+	#img1, #img1-5, #img2, #img2-5, #img3, #img3-5 {
+		width: 90%;
+	}
+	aside {
+		padding: 0%;
+		width: 20%;
+	}
+	#section2, #section3 {
+		padding: 0;
+		float: left;
+	}
+	dl {
+		font-size: 90%;
+	}
+}

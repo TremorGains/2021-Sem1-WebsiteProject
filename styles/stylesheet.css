@@ -1,0 +1,190 @@
+/*
+filename: Assignment 1 Stylesheet
+author: Ryan Faraone
+created: 26/03/2021
+last modified: 26/03/2021
+description: index.html, product.html, enquire.html, about.html
+*/
+
+body {
+	font-family: "Times New Roman", arial;
+}
+header { 											/* stretches banner across header */
+	background-image: url(images/banner.jfif);		   
+	background-repeat: repeat-x;
+	background-position: bottom;
+	height: 150px;
+	width: 100%;
+	clear: both;
+}
+header h1 {
+	font: normal 72px "Tiki Tropic", "Times New Roman", arial;             /* implements the custom font for the header */
+	letter-spacing: 4px;
+	padding-top: 0.5em;
+	padding-left: 0.5em;
+	padding-bottom: 5em;
+}
+@font-face {
+	font-family: "Tiki Tropic";	src: url(fonts/TikiTropic.ttf); /* indicates file location for custom font */
+}
+#about {
+	text-align: left;
+}
+nav { 
+	text-align: center;
+	background-color: #4287f5;
+	clear: both;
+	height: 2em;
+}
+.menu { 
+	text-decoration: none;
+	color: #000;
+	font-size: 180%;
+	font-weight: bold;
+}
+.menu:hover {
+	background-color: #4257f5;
+}
+#page1 {
+	padding-left:  2.865em;
+	padding-right: 2.865em;
+}
+#page2 {
+	padding-left: 1.325em;
+	padding-right:  1.325em;
+}
+#page3 {
+	padding-left: 0.05em;
+	padding-right: 0.05em;
+}
+#page4 {
+	padding-left: 3.13em;
+	padding-right: 3.13em;
+}
+#page5 {
+	padding-left: 1em;
+}
+#mainimg {
+	width: 75%;
+	clear: both;
+	padding-left: 13em;
+}
+#form {
+	text-align: left;
+	font-size: 125%;
+}
+aside {
+	width: 25%;
+	float: right;
+	border: 1px solid #000;
+	padding: 1em;
+	border: 3px solid #0c94b3;
+	margin: 3em;
+}
+h3 {
+	text-align: left;
+}
+#links {
+	text-align: left;
+}
+article {
+	width: 100%;
+	text-align: center;
+}
+ol {
+	text-align: left;
+}
+section {
+	float: left;
+	text-align: left;
+	padding-left: 1em;
+}
+section figure img{
+	float: right;
+	width: 12em;
+}
+#section2 {
+	float: left;
+	padding-left: 1.5em;
+}
+#section1 p {
+	width: 70%;
+}
+#section3 {
+	padding-left: 7em;
+}
+#section3 p {
+	width: 50%;
+}
+figcaption {
+	float: right;
+	clear: right;
+	width: 40%;
+	font-size: 80%;
+	text-align: center;
+}
+img {
+	width: 12em;
+}
+#img1, #img1-5, #img2, #img2-5, #img3, #img3-5 {
+	width: 14.5em;
+	border: 2px solid #0c94b3;
+	outline: 2px solid black;
+}
+#section4 {
+	clear: left;
+	float: left
+}
+table, th, td {
+	border: 1px solid black;
+}
+th {
+	text-align: center;
+	padding: 0.5em;
+	background-color: DarkGrey;
+}
+td {
+	padding: 0.5em;
+	background-color: #32a89e;
+}
+dl {
+	text-align: left;
+	padding-bottom: 4em;
+	font-size: 137%
+}
+dt {
+	font-weight: bold;
+}
+#me {
+	float: right;
+}
+#me img {
+	border: 2px solid #0c94b3;
+	outline: 2px solid black;
+}
+#me figcaption {
+	padding-right: 7em;
+} 
+footer {
+	clear: both;
+	background-color: #94d4ff;
+	background-repeat: repeat-x;
+	background-position: bottom;
+	height: 60px;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	text-align: center;
+}
+#css {
+	text-align: left;
+}
+#css li a {
+	text-decoration: none;
+	font-weight: bold;
+}
+#css li a:link {
+	color: blue;
+}
+#css li a:visited {
+	color: blue;
+}
